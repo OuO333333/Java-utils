@@ -27,7 +27,7 @@ public class UtilsTests {
 
     @Test
 	public void getArgs1() {
-		File searchUnderThisFile = new File("C:/timgit/javautils");
+		File searchUnderThisFile = new File("D:/timgit/Java-utils");
 		File serrchFileResult = SearchFileUtils.searchFile(searchUnderThisFile, "ConnectionInf.java");
 		Path path = Paths.get(serrchFileResult.toString());
 		try {
